@@ -1,0 +1,18 @@
+
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Private conversation history
+chat_history.json
+app_backup.py
+knowledge_base_backup.md
+agent/core_backup.py
